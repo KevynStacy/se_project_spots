@@ -1,0 +1,117 @@
+.profile {
+    display: flex;
+    flex-direction: row;
+    max-width: 1280px;
+    margin: 34px auto 0;
+    padding: 0px 0 20px;
+    border-bottom: 1px rgba(33, 33, 33, .4) solid;
+}
+
+.profile__avatar {
+    margin-right: 20px;
+    border-radius: 10px;
+    height: 190px;
+    width: 190px;
+}
+
+.profile__column {
+    display:flex;
+    flex-direction: column;
+}
+
+.profile__name {
+    margin: 0 0 12px;
+    max-width: 420px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.profile__description {
+    margin: 0;
+    opacity: 70%;
+    max-width: 420px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.profile__edit-btn {
+    width: 107.34px;
+    height: 16px;
+    margin-top: auto;
+    border: none;
+    display: flex;
+    padding: 0;
+    background-color: #fcf5e5;
+    opacity: 70%;
+    justify-content: space-between;
+}
+
+.profile__pencil-image {
+    padding: 0;
+}
+
+.profile__new-post-btn {
+    margin-left: auto;
+    margin-top: auto;
+    background-color: #212121;
+    color: #FCF5E5;
+    width: 149px;
+    height: 52px;
+    border-radius: 8px;
+}
+
+.profile__plus-image {
+    margin-right: 8px;
+    color: #FCF5E5;
+}
+
+@media screen and (max-width: 627px){
+    .profile {
+        max-width: 288px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-bottom: 1px rgba(33, 33, 33, .4) solid;
+    }
+
+    .profile__avatar {
+        width: 80px;
+        height: 80px;
+        margin: 0;
+        margin-bottom: 12px;
+        border-radius: 10%;
+    }
+
+    .profile__name {
+        margin: 0 0 6px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: 288px;
+    }
+
+    .profile__description {
+        padding-bottom: 32px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: 288px;
+    }
+
+    .profile__edit-btn{
+        justify-content: space-around;
+        margin: 0 auto 20px;
+    }
+    .profile__new-post-btn {
+        margin: 0 auto;
+        padding: 18px 32px;
+        height: 52px;
+        width: 288px;
+    }
+}
