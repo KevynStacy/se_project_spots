@@ -1,13 +1,13 @@
 .card {
-    height: 413px;
+    min-height: 413px;
     max-width: 413px;
-    margin: 0 0 40px;
 }
 
 .card__photo {
     height: 413px;
     width: 413px;
-    border-radius: 5%;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
 .card__content {
@@ -19,6 +19,13 @@
 
 .card__title {
     margin: 12px 0 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 119px;
 }
 
 .card__like-button {
@@ -28,4 +35,18 @@
     border: none;
     background-color: transparent;
     opacity: 40%;
+    cursor: pointer;
+}
+
+.card__like-button:hover {
+    background-image: url(../images/Union.svg)
+}
+
+@media screen and (max-width: 627px){
+    .card {
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        font-weight: 500px;
+        font-size: 16px;
+        line-height: 16px;
+    }
 }
