@@ -17,4 +17,10 @@ The purpose of this project is to start the process on how to build a functionin
 
 This webpage is deployed to GitHub Pages
 
-- Deployment Link: http://127.0.0.1:5500/
+- Deployment Link: https://github.com/KevynStacy/se_project_spots
+
+## Video
+
+Here is my video describing my project
+
+- Video Link: https://drive.google.com/file/d/1qj0qC-A7DRI82_Cg9YiOO4HJkTBcy5Xw/view?usp=sharing
