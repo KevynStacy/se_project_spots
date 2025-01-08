@@ -25,11 +25,14 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    max-width: 119px;
+    max-width: 350px;
 }
 
 .card__like-button {
-    background-image: url(../images/Like\ Icon.svg);
+    background-image: url(../images/Like\ Icon\ \(1\).svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 20px;
     width: 23px;
     border: none;
@@ -39,14 +42,11 @@
 }
 
 .card__like-button:hover {
-    background-image: url(../images/Union.svg)
+    opacity: 1;
 }
 
 @media screen and (max-width: 627px){
-    .card {
-        font-family: Poppins, Arial, Helvetica, sans-serif;
-        font-weight: 500px;
-        font-size: 16px;
-        line-height: 16px;
+    .card__title {
+        max-width: 250px;
     }
 }

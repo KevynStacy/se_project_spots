@@ -23,7 +23,7 @@
     margin: 0 0 12px;
     max-width: 420px;
     font-size: 32px;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 32px;
     color: #212121;
     text-overflow: ellipsis;
@@ -37,9 +37,9 @@
     margin: 0;
     opacity: 70%;
     max-width: 420px;
-    font-size: 32px;
-    font-weight: 500px;
-    line-height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
     color: #212121;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -60,12 +60,12 @@
     justify-content: space-between;
     font-size: 16px;
     line-height: 16px;
-    color: rgba(0, 0, 0, .7);
+    color: #212121;
     cursor: pointer;
 }
 
 .profile__edit-btn:hover {
-    color: #212121;
+    opacity: 1;
 }
 
 .profile__pencil-image {
@@ -82,7 +82,7 @@
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 16px;
     color:#FCF5E5;
 }
@@ -114,7 +114,6 @@
 
     .profile__name {
         margin: 0 0 6px;
-        text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
         max-width: 288px;
@@ -122,7 +121,6 @@
 
     .profile__description {
         padding-bottom: 32px;
-        text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
         max-width: 288px;
