@@ -17,7 +17,7 @@ The purpose of this project is to start the process on how to build a functionin
 
 This webpage is deployed to GitHub Pages
 
-- Deployment Link: https://github.com/KevynStacy/se_project_spots
+- Deployment Link: https://kevynstacy.github.io/se_project_spots/
 
 ## Video
 
