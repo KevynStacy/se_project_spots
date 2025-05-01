@@ -83,38 +83,36 @@
       </main>
       <footer class="footer">2024 &COPY; Spots</footer>
       <div class="modal" id="edit-profile-modal">
-        <!--remember to add the (modal_is-opened) class to the modal class in the div above-->
         <div class="modal__container">
             <button type="submit" class="modal__close-button">
-                <img src="images/Close Icon.svg" alt="close icon" class="modal__close-button-image">
+                <img src="images/CloseIcon.svg" alt="close icon" class="modal__close-button-image">
             </button>
             <h2 class="modal__title">Edit profile</h2>
             <form name="edit-profile" class="modal__form">
                 <label for="Name" class="modal__label">
                     Name
-                    <Input id="profile-name-input" type="text"class="modal__input" placeholder="Type your name"></Input>
+                    <Input id="Name" type="text" class="modal__input" placeholder="Type your name">
                 </label>
                 <label for="profile-description-input" class="modal__label">
                     Description
-                    <Input id="profile-description-input" type="text"class="modal__input" placeholder="Describe yourself"></Input>
+                    <Input id="profile-description-input" type="text" class="modal__input" placeholder="Describe yourself">
                 </label>
                 <button type="submit" class="modal__submit-button">Save</button>
             </form>
         </div>
       </div>
     <div class="modal" id="new-post-modal">
-        <!--remember to add the (modal_is-opened) class to the modal class in the div above-->
         <div class="modal__container">
             <button type="button" class="modal__close-button">X</button>
             <h2 class="modal__title">New post</h2>
             <form name="new-post" class="modal__form">
                 <label for="card-image-input" class="modal__label">
                     Image link
-                    <Input id="card-image-input" type="url" class="modal__input" placeholder="Place a link to the picture"></Input>
+                    <Input id="card-image-input" type="url" class="modal__input" placeholder="Place a link to the picture">
                 </label>
                 <label for="card-description-input" class="modal__label">
                     Description
-                    <Input id="card-description-input" type="text" class="modal__input" placeholder="Input post caption"></Input>
+                    <Input id="card-description-input" type="text" class="modal__input" placeholder="Input post caption">
                 </label>
                 <button type="submit" class="modal__submit-button">Save</button>
             </form>
